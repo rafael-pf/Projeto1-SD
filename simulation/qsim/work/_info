@@ -1,0 +1,155 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Users/vlsm/Documents/quartus/simulation/qsim
+vComparador_1bit
+Z1 !s110 1701288984
+!i10b 1
+!s100 lOROPQhfEjeNL6D1K^QIR1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IP5G^^PO[LCb_fSSDhANMo2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1701288983
+Z4 8Mux_demux.vo
+Z5 FMux_demux.vo
+!i122 16
+L0 32 108
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1701288984.000000
+Z8 !s107 Mux_demux.vo|
+Z9 !s90 -work|work|Mux_demux.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@comparador_1bit
+vComparador_1bit_vlg_vec_tst
+R1
+!i10b 1
+!s100 ]fE>jXJRGc4:l8edLcRYE3
+R2
+I<DBOOW42^O2MhULhjGL1O2
+R3
+R0
+w1701288979
+8Waveform6.vwf.vt
+FWaveform6.vwf.vt
+!i122 17
+L0 30 34
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform6.vwf.vt|
+!s90 -work|work|Waveform6.vwf.vt|
+!i113 1
+R10
+R11
+n@comparador_1bit_vlg_vec_tst
+vDemux_maior
+Z12 !s110 1701285707
+!i10b 1
+!s100 D>2gm2X<iRUGlD?6g^fCl3
+R2
+IAA9K9zLWRWW?dAn[GdE@Q2
+R3
+R0
+w1701285707
+R4
+R5
+!i122 8
+L0 32 1396
+R6
+r1
+!s85 0
+31
+Z13 !s108 1701285707.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@demux_maior
+vDemux_maior_vlg_vec_tst
+R12
+!i10b 1
+!s100 @1L8122YJ[MV=gdo::6mb1
+R2
+IbRO^e:E_Y^d]ogB9m79Ke1
+R3
+R0
+w1701285703
+8Waveform4.vwf.vt
+FWaveform4.vwf.vt
+!i122 9
+L0 30 84
+R6
+r1
+!s85 0
+31
+R13
+!s107 Waveform4.vwf.vt|
+!s90 -work|work|Waveform4.vwf.vt|
+!i113 1
+R10
+R11
+n@demux_maior_vlg_vec_tst
+vMux_demux
+Z14 !s110 1701282563
+!i10b 1
+!s100 [7ZEc07[KmWF[_4NO85@82
+R2
+I<fO<:N7XGSh]=^eADI=i<0
+R3
+R0
+w1701282562
+R4
+R5
+!i122 2
+L0 32 336
+R6
+r1
+!s85 0
+31
+Z15 !s108 1701282563.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@mux_demux
+vMux_demux_vlg_vec_tst
+R14
+!i10b 1
+!s100 ?e;40c=jFO3k`Z3gJ`7hl3
+R2
+IU?H2[GUnjYIFbY6fJfKbA3
+R3
+R0
+w1701282559
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+!i122 3
+L0 30 72
+R6
+r1
+!s85 0
+31
+R15
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R10
+R11
+n@mux_demux_vlg_vec_tst

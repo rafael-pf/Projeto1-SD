@@ -1,0 +1,56 @@
+$comment
+	File created using the following command:
+		vcd file Mux_demux.msim.vcd -direction
+$end
+$date
+	Wed Nov 29 17:16:24 2023
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module Comparador_1bit_vlg_vec_tst $end
+$var reg 1 ! A $end
+$var reg 1 " B $end
+$var wire 1 # A_maior $end
+$var wire 1 $ IGUAL $end
+
+$scope module i1 $end
+$var wire 1 % gnd $end
+$var wire 1 & vcc $end
+$var wire 1 ' unknown $end
+$var tri1 1 ( devclrn $end
+$var tri1 1 ) devpor $end
+$var tri1 1 * devoe $end
+$var wire 1 + IGUAL~output_o $end
+$var wire 1 , A_maior~output_o $end
+$var wire 1 - A~input_o $end
+$var wire 1 . B~input_o $end
+$var wire 1 / inst~combout $end
+$var wire 1 0 inst14~combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1"
+0#
+0$
+0%
+1&
+x'
+1(
+1)
+1*
+0+
+0,
+0-
+1.
+1/
+00
+$end
+#1000000
