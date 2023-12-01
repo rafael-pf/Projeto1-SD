@@ -7,8 +7,9 @@ Note: if both ModelSim-Altera and ModelSim executables are available, ModelSim-A
 
 **** Generating the ModelSim Testbench ****
 
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Mux_demux -c Mux_demux --vector_source="C:/Users/vinic/OneDrive/Documentos/Projeto1-SD-dupla3/Waveform.vwf" --testbench_file="C:/Users/vinic/OneDrive/Documentos/Projeto1-SD-dupla3/simulation/qsim/Waveform.vwf.vt"
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Mux_demux -c Mux_demux --vector_source="D:/Users/vlsm/Documents/Projeto1-SD-dupla3/Waveform2.vwf" --testbench_file="D:/Users/vlsm/Documents/Projeto1-SD-dupla3/simulation/qsim/Waveform2.vwf.vt"
 
+Warning (292006): Can't contact license server "27200@pesqueira.cin.ufpe.br" -- this server will be ignored.
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
@@ -26,8 +27,8 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Thu Nov 30 14:33:06 2023
-Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Mux_demux -c Mux_demux --vector_source=C:/Users/vinic/OneDrive/Documentos/Projeto1-SD-dupla3/Waveform.vwf --testbench_file=C:/Users/vinic/OneDrive/Documentos/Projeto1-SD-dupla3/simulation/qsim/Waveform.vwf.vt
+    Info: Processing started: Fri Dec 01 11:01:55 2023
+Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Mux_demux -c Mux_demux --vector_source=D:/Users/vlsm/Documents/Projeto1-SD-dupla3/Waveform2.vwf --testbench_file=D:/Users/vlsm/Documents/Projeto1-SD-dupla3/simulation/qsim/Waveform2.vwf.vt
 Info (119004): Automatically selected device EP4CE6E22C6 for design Mux_demux
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 
@@ -37,8 +38,9 @@ Completed successfully.
 
 **** Generating the functional simulation netlist ****
 
-quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/vinic/OneDrive/Documentos/Projeto1-SD-dupla3/simulation/qsim/" Mux_demux -c Mux_demux
+quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="D:/Users/vlsm/Documents/Projeto1-SD-dupla3/simulation/qsim/" Mux_demux -c Mux_demux
 
+Warning (292006): Can't contact license server "27200@pesqueira.cin.ufpe.br" -- this server will be ignored.
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
@@ -56,22 +58,22 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Thu Nov 30 14:33:07 2023
-Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/vinic/OneDrive/Documentos/Projeto1-SD-dupla3/simulation/qsim/ Mux_demux -c Mux_demux
+    Info: Processing started: Fri Dec 01 11:01:59 2023
+Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/Users/vlsm/Documents/Projeto1-SD-dupla3/simulation/qsim/ Mux_demux -c Mux_demux
 Info (119004): Automatically selected device EP4CE6E22C6 for design Mux_demux
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (204019): Generated file Mux_demux.vo in folder "C:/Users/vinic/OneDrive/Documentos/Projeto1-SD-dupla3/simulation/qsim//" for EDA simulation tool
-Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4643 megabytes
-    Info: Processing ended: Thu Nov 30 14:33:08 2023
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:01
+Info (204019): Generated file Mux_demux.vo in folder "D:/Users/vlsm/Documents/Projeto1-SD-dupla3/simulation/qsim//" for EDA simulation tool
+Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 4647 megabytes
+    Info: Processing ended: Fri Dec 01 11:02:02 2023
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:00
 
 Completed successfully. 
 
 **** Generating the ModelSim .do script ****
 
-C:/Users/vinic/OneDrive/Documentos/Projeto1-SD-dupla3/simulation/qsim/Mux_demux.do generated.
+D:/Users/vlsm/Documents/Projeto1-SD-dupla3/simulation/qsim/Mux_demux.do generated.
 
 Completed successfully. 
 
@@ -81,57 +83,55 @@ c:/intelfpga_lite/20.1/modelsim_ase/win32aloem//vsim -c -do Mux_demux.do
 
 Reading pref.tcl
 
-
 # 2020.1
 
 # do Mux_demux.do
-
 # ** Warning: (vlib-34) Library already exists at "work".
+
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:33:09 on Nov 30,2023
+# Start time: 11:02:03 on Dec 01,2023
 # vlog -work work Mux_demux.vo 
-
-# -- Compiling module Mux8x1_6bits
+# -- Compiling module Mux2x1_5bits
 # 
 # Top level modules:
-# 	Mux8x1_6bits
-# End time: 14:33:09 on Nov 30,2023, Elapsed time: 0:00:00
+# 	Mux2x1_5bits
+# End time: 11:02:03 on Dec 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:33:09 on Nov 30,2023
-# vlog -work work Waveform.vwf.vt 
-# -- Compiling module Mux8x1_6bits_vlg_vec_tst
+# Start time: 11:02:03 on Dec 01,2023
+# vlog -work work Waveform2.vwf.vt 
+# -- Compiling module Mux2x1_5bits_vlg_vec_tst
 # 
 # Top level modules:
-# 	Mux8x1_6bits_vlg_vec_tst
-# End time: 14:33:09 on Nov 30,2023, Elapsed time: 0:00:00
+# 	Mux2x1_5bits_vlg_vec_tst
+# End time: 11:02:03 on Dec 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 
-# vsim -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.Mux8x1_6bits_vlg_vec_tst 
-# Start time: 14:33:09 on Nov 30,2023
-# Loading work.Mux8x1_6bits_vlg_vec_tst
-# Loading work.Mux8x1_6bits
+# vsim -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.Mux2x1_5bits_vlg_vec_tst 
+# Start time: 11:02:03 on Dec 01,2023
+# Loading work.Mux2x1_5bits_vlg_vec_tst
+# Loading work.Mux2x1_5bits
 # Loading cycloneive_ver.cycloneive_io_obuf
 # Loading cycloneive_ver.cycloneive_io_ibuf
 # Loading cycloneive_ver.cycloneive_lcell_comb
 # after#25
-# ** Note: $finish    : Waveform.vwf.vt(61)
-#    Time: 1 us  Iteration: 0  Instance: /Mux8x1_6bits_vlg_vec_tst
-# End time: 14:33:10 on Nov 30,2023, Elapsed time: 0:00:01
+# ** Note: $finish    : Waveform2.vwf.vt(49)
+#    Time: 1 us  Iteration: 0  Instance: /Mux2x1_5bits_vlg_vec_tst
+# End time: 11:02:03 on Dec 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 
 Completed successfully. 
 
 **** Converting ModelSim VCD to vector waveform ****
 
-Reading C:/Users/vinic/OneDrive/Documentos/Projeto1-SD-dupla3/Waveform.vwf...
+Reading D:/Users/vlsm/Documents/Projeto1-SD-dupla3/Waveform2.vwf...
 
-Reading C:/Users/vinic/OneDrive/Documentos/Projeto1-SD-dupla3/simulation/qsim/Mux_demux.msim.vcd...
+Reading D:/Users/vlsm/Documents/Projeto1-SD-dupla3/simulation/qsim/Mux_demux.msim.vcd...
 
 Processing channel transitions... 
 
-Writing the resulting VWF to C:/Users/vinic/OneDrive/Documentos/Projeto1-SD-dupla3/simulation/qsim/Mux_demux_20231130143310.sim.vwf
+Writing the resulting VWF to D:/Users/vlsm/Documents/Projeto1-SD-dupla3/simulation/qsim/Mux_demux_20231201110203.sim.vwf
 
 Finished VCD to VWF conversion.
 

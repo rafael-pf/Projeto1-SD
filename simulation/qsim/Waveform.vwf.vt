@@ -19,319 +19,71 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "11/30/2023 14:33:06"
+// Generated on "12/01/2023 10:44:43"
                                                                                 
-// Verilog Test Bench (with test vectors) for design :                          Mux8x1_6bits
+// Verilog Test Bench (with test vectors) for design :                          Mux2x1_1bit
 // 
 // Simulation tool : 3rd Party
 // 
 
 `timescale 1 ps/ 1 ps
-module Mux8x1_6bits_vlg_vec_tst();
+module Mux2x1_1bit_vlg_vec_tst();
 // constants                                           
 // general purpose registers
-reg [5:0] A;
-reg [5:0] B;
-reg [5:0] C;
-reg [5:0] D;
-reg [5:0] E;
-reg [5:0] F;
-reg [5:0] G;
-reg [5:0] H;
-reg [2:0] S;
+reg A;
+reg B;
+reg pin_name1;
 // wires                                               
-wire [5:0] SAIDA;
+wire SAIDA;
 
 // assign statements (if any)                          
-Mux8x1_6bits i1 (
+Mux2x1_1bit i1 (
 // port map - connection between master ports and signals/registers   
 	.A(A),
 	.B(B),
-	.C(C),
-	.D(D),
-	.E(E),
-	.F(F),
-	.G(G),
-	.H(H),
-	.S(S),
+	.pin_name1(pin_name1),
 	.SAIDA(SAIDA)
 );
 initial 
 begin 
 #1000000 $finish;
 end 
-// A[ 5 ]
+
+// A
 initial
 begin
-	A[5] = 1'b1;
-end 
-// A[ 4 ]
-initial
-begin
-	A[4] = 1'b1;
-end 
-// A[ 3 ]
-initial
-begin
-	A[3] = 1'b1;
-end 
-// A[ 2 ]
-initial
-begin
-	A[2] = 1'b1;
-end 
-// A[ 1 ]
-initial
-begin
-	A[1] = 1'b1;
-end 
-// A[ 0 ]
-initial
-begin
-	A[0] = 1'b1;
-end 
-// B[ 5 ]
-initial
-begin
-	B[5] = 1'b0;
-end 
-// B[ 4 ]
-initial
-begin
-	B[4] = 1'b0;
-end 
-// B[ 3 ]
-initial
-begin
-	B[3] = 1'b0;
-end 
-// B[ 2 ]
-initial
-begin
-	B[2] = 1'b0;
-end 
-// B[ 1 ]
-initial
-begin
-	B[1] = 1'b0;
-end 
-// B[ 0 ]
-initial
-begin
-	B[0] = 1'b0;
-end 
-// C[ 5 ]
-initial
-begin
-	C[5] = 1'b1;
-end 
-// C[ 4 ]
-initial
-begin
-	C[4] = 1'b1;
-end 
-// C[ 3 ]
-initial
-begin
-	C[3] = 1'b1;
-end 
-// C[ 2 ]
-initial
-begin
-	C[2] = 1'b1;
-end 
-// C[ 1 ]
-initial
-begin
-	C[1] = 1'b1;
-end 
-// C[ 0 ]
-initial
-begin
-	C[0] = 1'b1;
-end 
-// D[ 5 ]
-initial
-begin
-	D[5] = 1'b1;
-end 
-// D[ 4 ]
-initial
-begin
-	D[4] = 1'b1;
-end 
-// D[ 3 ]
-initial
-begin
-	D[3] = 1'b1;
-end 
-// D[ 2 ]
-initial
-begin
-	D[2] = 1'b1;
-end 
-// D[ 1 ]
-initial
-begin
-	D[1] = 1'b1;
-end 
-// D[ 0 ]
-initial
-begin
-	D[0] = 1'b1;
-end 
-// E[ 5 ]
-initial
-begin
-	E[5] = 1'b1;
-end 
-// E[ 4 ]
-initial
-begin
-	E[4] = 1'b1;
-end 
-// E[ 3 ]
-initial
-begin
-	E[3] = 1'b1;
-end 
-// E[ 2 ]
-initial
-begin
-	E[2] = 1'b1;
-end 
-// E[ 1 ]
-initial
-begin
-	E[1] = 1'b1;
-end 
-// E[ 0 ]
-initial
-begin
-	E[0] = 1'b1;
-end 
-// F[ 5 ]
-initial
-begin
-	F[5] = 1'b0;
-end 
-// F[ 4 ]
-initial
-begin
-	F[4] = 1'b0;
-end 
-// F[ 3 ]
-initial
-begin
-	F[3] = 1'b0;
-end 
-// F[ 2 ]
-initial
-begin
-	F[2] = 1'b0;
-end 
-// F[ 1 ]
-initial
-begin
-	F[1] = 1'b0;
-end 
-// F[ 0 ]
-initial
-begin
-	F[0] = 1'b0;
-end 
-// G[ 5 ]
-initial
-begin
-	G[5] = 1'b1;
-end 
-// G[ 4 ]
-initial
-begin
-	G[4] = 1'b1;
-end 
-// G[ 3 ]
-initial
-begin
-	G[3] = 1'b1;
-end 
-// G[ 2 ]
-initial
-begin
-	G[2] = 1'b1;
-end 
-// G[ 1 ]
-initial
-begin
-	G[1] = 1'b1;
-end 
-// G[ 0 ]
-initial
-begin
-	G[0] = 1'b1;
-end 
-// H[ 5 ]
-initial
-begin
-	H[5] = 1'b1;
-end 
-// H[ 4 ]
-initial
-begin
-	H[4] = 1'b1;
-end 
-// H[ 3 ]
-initial
-begin
-	H[3] = 1'b1;
-end 
-// H[ 2 ]
-initial
-begin
-	H[2] = 1'b1;
-end 
-// H[ 1 ]
-initial
-begin
-	H[1] = 1'b1;
-end 
-// H[ 0 ]
-initial
-begin
-	H[0] = 1'b1;
-end 
-// S[ 2 ]
-initial
-begin
-	repeat(2)
+	A = 1'b1;
+	# 40000;
+	repeat(12)
 	begin
-		S[2] = 1'b0;
-		S[2] = #240000 1'b1;
-		# 240000;
+		A = 1'b0;
+		A = #40000 1'b1;
+		# 40000;
 	end
-	S[2] = 1'b0;
 end 
-// S[ 1 ]
+
+// B
 initial
 begin
-	repeat(4)
+	repeat(6)
 	begin
-		S[1] = 1'b0;
-		S[1] = #120000 1'b1;
-		# 120000;
+		B = 1'b0;
+		B = #80000 1'b1;
+		# 80000;
 	end
-	S[1] = 1'b0;
+	B = 1'b0;
 end 
-// S[ 0 ]
+
+// pin_name1
 initial
 begin
-	repeat(8)
+	repeat(3)
 	begin
-		S[0] = 1'b0;
-		S[0] = #60000 1'b1;
-		# 60000;
+		pin_name1 = 1'b0;
+		pin_name1 = #160000 1'b1;
+		# 160000;
 	end
-	S[0] = 1'b0;
+	pin_name1 = 1'b0;
 end 
 endmodule
 

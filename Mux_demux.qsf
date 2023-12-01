@@ -39,7 +39,7 @@
 
 set_global_assignment -name FAMILY "Cyclone IV E"
 set_global_assignment -name DEVICE auto
-set_global_assignment -name TOP_LEVEL_ENTITY Mux8x1_6bits
+set_global_assignment -name TOP_LEVEL_ENTITY Mux2x1_5bits
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "14:52:36  NOVEMBER 29, 2023"
 set_global_assignment -name LAST_QUARTUS_VERSION "20.1.1 Lite Edition"
@@ -62,6 +62,9 @@ set_global_assignment -name BDF_FILE Comparador_1bit.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform5.vwf
 set_global_assignment -name BDF_FILE Mux8x1_1bit.bdf
 set_global_assignment -name BDF_FILE Mux8x1_6bits.bdf
+set_global_assignment -name BDF_FILE Mux2x1_1bit.bdf
+set_global_assignment -name BDF_FILE Mux2x1_4bits.bdf
+set_global_assignment -name BDF_FILE Mux2x1_5bits.bdf
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
